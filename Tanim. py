@@ -84,7 +84,7 @@ def clear():
 def back():
 	login()
 
-TANIM="TANIM-"
+TALHA="TANIM-"
 imt="-Busra4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
@@ -388,7 +388,7 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-      ╔══╗╔══╗╔═╦╗╔══╗╔═╦═╗
+     ╔══╗╔══╗╔═╦╗╔══╗╔═╦═╗
 ╚╗╔╝║╔╗║║║║║╚║║╝║║║║║
 ─║║─║╠╣║║║║║╔║║╗║║║║║
 ─╚╝─╚╝╚╝╚╩═╝╚══╝╚╩═╩╝
